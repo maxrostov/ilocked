@@ -1,0 +1,20 @@
+{
+  "name": "nexton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp watch",
+    "browser-sync": "browser-sync build -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-include": "^2.4.1"
+  }
+}
