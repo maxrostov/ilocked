@@ -1,0 +1,23 @@
+.cq_quest{
+    
+}
+.cq_quest_title{
+    font-weight: bold;
+    font-size: 28px;
+}
+.cq_quest_flex{
+    display: flex;
+    margin-bottom: 80px;
+}
+.cq_quest_img{
+    width: 100%;
+}
+.cq_quest_item{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.cq_quest_item_text{
+    padding: 0 50px;
+    /*background-color: #ccc;*/
+}

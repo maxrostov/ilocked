@@ -10,7 +10,7 @@ var concat = require("gulp-concat");
 gulp.task("css", function () {
   return gulp
     .src("source/css/*.css")
-    .pipe(concat("main.css"))
+    .pipe(concat("children_quest.css"))
     .pipe(gulp.dest("build"));
 });
 

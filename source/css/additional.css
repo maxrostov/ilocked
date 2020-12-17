@@ -1,0 +1,39 @@
+.cq_additional{
+
+}
+
+.cq_additional_title{
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #292929;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.cq_additional_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.cq_additional_grid_item{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    padding: 30px 20px;
+
+}
+.cq_additional_grid_item_img{}
+
+.cq_additional_grid_item_title{
+    font-size: 19px;
+    font-weight: 600;
+}
