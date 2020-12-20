@@ -1,0 +1,78 @@
+.cq_feedback{
+    background-color: #eaeaea;
+    text-align: center;
+    background-image: url(children_quest_pics/paint_up.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    padding-bottom: 270px;
+
+}
+
+
+
+.cq_feedback_flex{
+    display: flex;
+    /*margin-bottom: 270px;*/
+}
+
+.cq_feedback_title{
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.cq_feedback_card{
+    background: #FFFFFF;
+    border: 1px solid rgba(41, 41, 41, 0.1);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.cq_feedback_card:nth-child(2){
+    margin: 0 20px;
+}
+
+
+.cq_feedback_name{
+    /*margin: auto;*/
+    /*width: 100px;*/
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 130%;
+    color: #292929;
+    margin: 25px 0;
+}
+
+
+.cq_feedback_text{
+    font-size: 15px;
+    text-align: left;
+}
+
+.cq_feedback_img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .cq_feedback_title {
+        padding: 1em;
+        font-size: 20px;
+    }
+    .cq_feedback_flex{
+        display: block;
+    }
+    .cq_feedback_card{
+        margin: 5px!important;
+    }
+    .cq_hero_info{
+        font-size: 16px;
+    }
+}

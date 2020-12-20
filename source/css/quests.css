@@ -9,6 +9,9 @@
     display: flex;
     margin-bottom: 80px;
 }
+.cq_quest_flex__reverse{
+    flex-direction: row-reverse;
+}
 .cq_quest_img{
     width: 100%;
 }
@@ -19,5 +22,17 @@
 }
 .cq_quest_item_text{
     padding: 0 50px;
-    /*background-color: #ccc;*/
+}
+
+
+@media screen and (max-width: 1000px) {
+    .cq_quest_flex{
+       display: block;
+    }
+    .cq_quest_title{
+        font-size: 20px;
+    }
+    .cq_quest_item_text{
+        padding: 0 20px;
+    }
 }

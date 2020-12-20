@@ -29,3 +29,12 @@
     color: #202020;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+    .cq_info{
+        margin: 20px;
+    }
+
+    .cq_info_title{font-size: 22px;}
+    .cq_info_txt{font-size: 20px;}
+}

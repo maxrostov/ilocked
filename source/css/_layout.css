@@ -4,3 +4,44 @@
   font-family: Montserrat;
   font-style: normal;
 }
+
+.cq_button{
+  padding: 17px 34px;
+  color: #fff;
+  background-color: #F80000;
+  /*margin-top: 36px;*/
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 21px;
+  border-radius: 16px;
+  transition: all .3s;
+  box-shadow: 0px 4px 10px rgba(248, 0, 0, 0.15);
+}
+
+.cq_button__white{
+  color: #F80000;
+  background-color: #fff;
+  border: 1px solid #F80000;
+}
+.cq_button__yellow{
+  color: #fff;
+  background-color: #FFC850;
+  margin: 10px 0 30px;
+}
+.cq_button:hover{
+  color: #fff;
+  background-color: #b70000;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .cq_button{
+    font-size: 17px;
+    padding: 10px 24px;
+  }
+  .cq_button__yellow{
+    font-size: 15px;
+    padding: 7px 18px;
+  }
+}
+
