@@ -1,15 +1,16 @@
 .cq_included{
-
     background-color: #fff;
-
-
 }
 
 .cq_included_flex{
     display: flex;
     margin-bottom: 270px;
+    min-width: 888px;
 }
-
+.cq_included_wrapper{
+    overflow: scroll;
+    padding: 0 20px;
+}
 .cq_included_title{
     font-weight: bold;
     font-size: 48px;
@@ -21,6 +22,7 @@
 .cq_card_wrapper{
     padding: 20px;
     flex-grow: 1;
+
 }
 .cq_included_card{
     background: #FFFFFF;
@@ -28,7 +30,14 @@
     box-sizing: border-box;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
     border-radius: 30px;
-    /*position: relative;*/
+
+    width: 33%;
+    flex-grow: 1;
+    /*min-width: 80vw;*/
+    /*width: 300px;*/
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
 
 }
 
@@ -36,11 +45,7 @@
     margin: 0 20px;
 }
 
-.cq_included_card{
-    display: flex;
-    flex-direction:column;
-    justify-content:flex-end;
-}
+
 .cq_included_tag{
     display: inline-block;
     background: #FDE8D6;
@@ -48,6 +53,14 @@
     font-weight: 500;
     font-size: 16px;
 
+}
+
+.cq_included_tag__science{
+    background: #EDF3FF;
+}
+
+.cq_included_img{
+    width: 100%;
 }
 .cq_card_title{
     font-weight: 600;
@@ -95,7 +108,7 @@
         font-size: 20px;
     }
     .cq_included_flex{
-        display: block;
+        /*display: block;*/
         margin-bottom: 10px;
     }
     .cq_included_card{

@@ -8,10 +8,15 @@
 
 }
 
+.cq_feedback_wrapper{
+    overflow: scroll;
+    padding: 20px;
+}
 
 
 .cq_feedback_flex{
     display: flex;
+    min-width: 888px;
     /*margin-bottom: 270px;*/
 }
 
@@ -59,6 +64,9 @@
     border-radius: 50px;
 }
 
+.cq_feedback_button{
+    margin-top: 40px;
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -66,13 +74,16 @@
         padding: 1em;
         font-size: 20px;
     }
-    .cq_feedback_flex{
-        display: block;
-    }
+        .cq_feedback{
+            padding-bottom: 20px;
+        }
     .cq_feedback_card{
         margin: 5px!important;
     }
     .cq_hero_info{
         font-size: 16px;
+    }
+    .cq_feedback_button{
+        margin-top: 10px;
     }
 }

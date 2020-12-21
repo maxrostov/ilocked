@@ -19,6 +19,8 @@
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
+max-width: 50%;
+    /*overflow: hidden;*/
 }
 .cq_quest_item_text{
     padding: 0 50px;
@@ -28,6 +30,14 @@
 @media screen and (max-width: 1000px) {
     .cq_quest_flex{
        display: block;
+    }
+    .cq_quest_item{
+
+    max-width: 100%;
+
+}
+    .cq_quest_item  .rounded_corners{
+        border-radius: 0;
     }
     .cq_quest_title{
         font-size: 20px;
