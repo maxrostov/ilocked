@@ -4,7 +4,7 @@
     background-image: url(children_quest_pics/paint_up.png);
     background-repeat: repeat-x;
     background-position: top;
-    padding-bottom: 270px;
+    padding-bottom: 100px;
 
 }
 
@@ -36,6 +36,9 @@
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
     border-radius: 30px;
     padding: 30px;
+
+    width: 97%;
+    /*height: 550px;*/
 }
 
 .cq_feedback_card:nth-child(2){
@@ -68,8 +71,70 @@
     margin-top: 40px;
 }
 
+.cq_swiper_feedback{
+    max-width: 1200px;
+    height: 600px;
+}
+.cq_feedback_swiper{
+    /*height: 600px;*/
+}
+
+.cq_included_mobile{
+    height: 188px;
+    margin: 20px 10px;
+    background: #FFFFFF;
+    border: 1px solid rgba(41, 41, 41, 0.1);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+}
+.cq_included_mobile_title{
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.cq_included_mobile_img{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.cq_included_mobile_img img{
+    width: 100%;
+}
+.cq_included_mobile_info{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 12px;
+
+}
+.cq_included_tag__mobile{
+    padding: 7px 12px!important;
+    font-size: 12px!important;
+}
+.cq_included_mobile_price{
+    margin: 10px 0 5px;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-top: 1px solid lightgrey;
+}
+.cq_included_mobile_price_val{
+    padding-left: 10px;
+}
+.cq_included_mobile_link{
+color: #008BFF;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1000px) {
 
+    .cq_swiper_feedback{
+              height: 700px;
+    }
     .cq_feedback_title {
         padding: 1em;
         font-size: 20px;

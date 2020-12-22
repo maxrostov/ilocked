@@ -30,11 +30,11 @@
     box-sizing: border-box;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
     border-radius: 30px;
-
-    width: 33%;
-    flex-grow: 1;
-    /*min-width: 80vw;*/
-    /*width: 300px;*/
+    overflow: hidden;
+    width: 97%;
+    height: 830px;
+    /*max-width: 33%;*/
+    /*flex-grow: 1;*/
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
@@ -101,8 +101,30 @@
 .cq_included_button{
 }
 
-@media screen and (max-width: 1000px) {
+.cq_included_swiper{
+    max-width: 1200px;
+    /*padding: 20px;*/
+    /*width: 1000px;*/
+    /*height: 700px;*/
+}
+.cq_included_swiper .swiper-wrapper{
+    height: 870px;
+}
 
+.cq_included_swiper_mobile{
+    display: none;
+}
+
+.cq_included_swiper{
+    display: block;
+}
+@media screen and (max-width: 1000px) {
+    .cq_included_swiper{
+        display: none;
+    }
+    .cq_included_swiper_mobile{
+        display: block;
+    }
     .cq_included_title {
                padding: 1em;
         font-size: 20px;
@@ -113,6 +135,10 @@
     }
     .cq_included_card{
         margin: 5px!important;
+    }
+    .cq_included_title{
+        margin-top: 30px;
+        margin-bottom: 0;
     }
 
 }

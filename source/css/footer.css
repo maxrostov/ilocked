@@ -1,0 +1,38 @@
+.cq_form_section_flex{
+    display: flex;
+}
+.cq_form_section_flex div{
+    flex: 1 1 0;
+}
+.cq_form_flex{
+    display: flex;
+}
+.cq_form_flex input{
+    flex-grow: 1;
+ }
+.cq_form{
+    padding: 30px 5vh;
+}
+.cq_form input,.cq_form textarea{
+    padding: 10px 20px;
+    margin: 10px 10px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #444444;
+}
+
+.cq_form textarea{
+
+    width: 100%;
+/*calc(100% - 20px)!important;*/
+}
+
+
+@media screen and (max-width: 1000px) {
+    .cq_form_section_flex,.cq_form_flex{
+        display: block;
+        text-align: center;
+    }
+}

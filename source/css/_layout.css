@@ -1,8 +1,10 @@
+section{
+  font-family: Montserrat;
+  font-style: normal;
+}
 .cq_section {
   max-width: 1200px;
   margin: auto;
-  font-family: Montserrat;
-  font-style: normal;
 }
 
 .cq_button{
@@ -36,8 +38,19 @@
 .rounded_corners{
   border-radius: 20px;
 }
-
+.desktop_only{
+  display: initial;
+}
+.mobile_only{
+  display: none;
+}
 @media screen and (max-width: 1000px) {
+  .desktop_only{
+    display: none;
+  }
+  .mobile_only{
+    display: initial;
+  }
   .cq_button{
     font-size: 17px;
     padding: 10px 24px;
