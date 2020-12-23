@@ -65,7 +65,8 @@
 }
 .cq_card_title{
     font-weight: 600;
-    font-size: 19px;
+    font-size: 18px;
+    letter-spacing: -0.8px;
     line-height: 130%;
     color: #292929;
     margin: 25px 0;
