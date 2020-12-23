@@ -37,7 +37,7 @@ max-width: 50%;
 
 }
     .cq_quest_item  .rounded_corners{
-        border-radius: 0;
+        /*border-radius: 0;*/
     }
     .cq_quest_title{
         font-size: 20px;

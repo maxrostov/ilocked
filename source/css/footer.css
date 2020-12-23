@@ -12,6 +12,7 @@
  }
 .cq_form{
     padding: 30px 5vh;
+    font-family: Montserrat, sans-serif;
 }
 .cq_form input,.cq_form textarea{
     padding: 10px 20px;
@@ -31,6 +32,9 @@
 
 
 @media screen and (max-width: 1000px) {
+    .cq_form{
+        padding-top: 0;
+    }
     .cq_form_section_flex,.cq_form_flex{
         display: block;
         text-align: center;
