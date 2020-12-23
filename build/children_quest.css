@@ -619,7 +619,7 @@ max-width: 50%;
 }
 .cq_table_wrapper{
     max-width: 1200px;
-    overflow: scroll;
+    /*overflow: scroll;*/
     margin: auto;
 }
 .cq_table_title{
@@ -636,7 +636,7 @@ max-width: 50%;
     /*display: block;*/
     /*overflow-x: auto;*/
     /*white-space: nowrap;*/
-
+overflow: hidden;
     width: 100%;
     margin: auto;
     /*max-width: 1200px;*/
@@ -646,6 +646,7 @@ max-width: 50%;
     border-radius: 30px;
     border-collapse: separate !important;
     /*border-spacing: 0;*/
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
 }
 .cq_table_price{
     font-size: 28px;
