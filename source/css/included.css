@@ -1,5 +1,6 @@
 .cq_included{
     background-color: #fff;
+    padding-top: 130px;
 }
 
 .cq_included_flex{
@@ -119,6 +120,10 @@
     display: block;
 }
 @media screen and (max-width: 1000px) {
+    .cq_included{
+        padding-top: 20px;
+    }
+
     .cq_included_swiper{
         display: none;
     }
