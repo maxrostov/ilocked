@@ -44,7 +44,7 @@ section{
   border-radius: 20px;
 }
 .desktop_only{
-  display: initial;
+  display: block;
 }
 .mobile_only{
   display: none;
@@ -60,7 +60,7 @@ section{
     display: none;
   }
   .mobile_only{
-    display: initial;
+    display: block;
   }
   .cq_button{
     font-size: 17px;

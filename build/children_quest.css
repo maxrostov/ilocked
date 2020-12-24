@@ -44,7 +44,7 @@ section{
   border-radius: 20px;
 }
 .desktop_only{
-  display: initial;
+  display: block;
 }
 .mobile_only{
   display: none;
@@ -60,7 +60,7 @@ section{
     display: none;
   }
   .mobile_only{
-    display: initial;
+    display: block;
   }
   .cq_button{
     font-size: 17px;
@@ -573,7 +573,7 @@ color: #008BFF;
     font-weight: 300;
     font-size: 24px;
     line-height: 130%;
-    text-align: center;
+    /*text-align: center;*/
     color: #202020;
     margin-top: 10px;
 }
@@ -581,10 +581,14 @@ color: #008BFF;
 @media screen and (max-width: 1000px) {
     .cq_info{
         padding-top: 30px;
+        text-align: left;
     }
 
-    .cq_info_title{font-size: 19px;}
-    .cq_info_txt{font-size: 14px;}
+    .cq_info_title{
+        font-size: 19px;
+
+    }
+    .cq_info_txt{font-size: 15px;}
 }
 
 .cq_quest{
