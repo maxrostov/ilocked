@@ -1,4 +1,5 @@
 
+
 a{
   text-decoration: none;
 }
@@ -49,8 +50,26 @@ section{
 .mobile_only{
   display: none;
 }
-@media screen and (max-width: 1000px) {
 
+:root {
+  --swiper-navigation-size: 28px!important;
+  --swiper-theme-color: #202020 !important;
+}
+.swiper-button-next,.swiper-button-prev{
+  background-color: #ffffff9c;
+  border-radius: 42px;
+  padding: 16px 21px 16px 23px;
+}
+
+@media screen and (max-width: 1000px) {
+  :root {
+    --swiper-navigation-size: 23px!important;
+  }
+  .swiper-button-next,.swiper-button-prev{
+    background-color: #ffffff9c;
+    border-radius: 42px;
+    padding: 12px 17px 12px 19px;
+  }
   .cq_mob_center_button{
     margin-left: calc(50% - 107px);
     color: #fff;

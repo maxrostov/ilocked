@@ -1,4 +1,5 @@
 
+
 a{
   text-decoration: none;
 }
@@ -49,8 +50,26 @@ section{
 .mobile_only{
   display: none;
 }
-@media screen and (max-width: 1000px) {
 
+:root {
+  --swiper-navigation-size: 28px!important;
+  --swiper-theme-color: #202020 !important;
+}
+.swiper-button-next,.swiper-button-prev{
+  background-color: #ffffff9c;
+  border-radius: 42px;
+  padding: 16px 21px 16px 23px;
+}
+
+@media screen and (max-width: 1000px) {
+  :root {
+    --swiper-navigation-size: 23px!important;
+  }
+  .swiper-button-next,.swiper-button-prev{
+    background-color: #ffffff9c;
+    border-radius: 42px;
+    padding: 12px 17px 12px 19px;
+  }
   .cq_mob_center_button{
     margin-left: calc(50% - 107px);
     color: #fff;
@@ -148,9 +167,6 @@ section{
     background-position: top;
     padding-bottom: 100px;
     padding-top: 198px;
-
-
-
 }
 
 .cq_feedback_wrapper{
@@ -312,31 +328,103 @@ color: #008BFF;
 .cq_form_flex input{
     flex-grow: 1;
  }
+.cq_form_wrapper{
+    text-align: right;
+}
 .cq_form{
-    padding: 30px 5vh;
+    text-align: left;
+    max-width: 600px;
+    padding: 30px 30px 30px 13px;
     font-family: Montserrat, sans-serif;
+    display: inline-block;
+
 }
 .cq_form input,.cq_form textarea{
     padding: 10px 20px;
     margin: 10px 10px;
-    width: 100%;
+
     font-size: 16px;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #444444;
 }
-
+.cq_form input{
+    width: 280px;
+}
 .cq_form textarea{
-
-    width: 100%;
-/*calc(100% - 20px)!important;*/
+    width: 580px;
+}
+.cq_form_title{
+    font-size: 32px;
+    margin-left: 10px;
+    font-weight:bold;
 }
 
+.cq_form_txt{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    width: 630px;
+}
+.cq_form_title_desktop{
+    font-size: 32px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.desktop_only_cq_button{
+    margin-top: 20px;
+    margin-left: 10px;
+}
 
 @media screen and (max-width: 1000px) {
+    .desktop_only_cq_button{
+     display: none;
+    }
+    .mobile_only_cq_button{
+        display: inline-block;
+        /*width: 12em;*/
+        font-weight: 700;
+        margin: 25px 0;
+        padding: 15px 18px;
+    }
+    /*.cq_form .cq_button{*/
+    /*    margin: 25px 22%;*/
+    /*   */
+    /*}*/
+.cq_form_title{margin-bottom: 5px;}
+    .cq_form_title{
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 28px;
+        color: #F80000;
+    }
+    .cq_form_txt{
+        font-size: 13px;
+        text-align: center;
+        margin-left: -9px;
+        /*margin-right: -25px;*/
+        width: 110%;
+        color: #858585;
+    }
     .cq_form{
         padding-top: 0;
+        /*width: 100%;*/
+        margin: 0;
+        text-align: center;
+        /*max-width: 100%;*/
     }
+    .cq_form_phone{
+        font-size: 18px;
+        font-weight: normal;
+        display: block;
+    }
+.cq_form input,.cq_form textarea{
+    margin: 7px;
+    box-sizing: border-box;
+    width: 100%!important;
+}
     .cq_form_section_flex,.cq_form_flex{
         display: block;
         text-align: center;
