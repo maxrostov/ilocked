@@ -17,10 +17,10 @@
     text-align: left;
     max-width: 600px;
     padding: 30px 30px 30px 13px;
-    font-family: Montserrat, sans-serif;
+    /*font-family: Montserrat, sans-serif;*/
     display: inline-block;
-
 }
+
 .cq_form input,.cq_form textarea{
     padding: 10px 20px;
     margin: 10px 10px;
