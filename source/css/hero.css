@@ -129,7 +129,17 @@
     .cq_quest_img_paint_down {
         top: 89% !important;
         height: 10%;
+
     }
+.cq_hero_info{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 2px 2px 4px #000000;
+}
+
 }
 @media screen and (max-width: 1200px) {
     .swiper-button-prev-quests {
