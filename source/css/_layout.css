@@ -10,6 +10,7 @@ a{
 section{
   /*font-family: 'Montserrat', sans-serif;*/
   font-style: normal;
+  font-weight: 300;
 }
 .cq_section {
   max-width: 1200px;
@@ -65,9 +66,19 @@ section{
   padding: 16px 21px 16px 23px;
 }
 
+/*.swiper-button-prev {*/
+/*  width: 50px !important;*/
+/*  height: 50px !important;*/
+/*  border: 1px solid transparent !important;*/
+/*  border-radius: 50% !important;*/
+/*  color: black !important;*/
+/*  background: rgba(255, 255, 255, 0.8) !important;*/
+/*  --swiper-navigation-size: 30px;*/
+/*}*/
+
 @media screen and (max-width: 1000px) {
   :root {
-    --swiper-navigation-size: 23px!important;
+    --swiper-navigation-cq_quest_img_headersize: 23px!important;
   }
   .swiper-button-next,.swiper-button-prev{
     background-color: #ffffff9c;

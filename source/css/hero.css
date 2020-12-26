@@ -15,7 +15,7 @@
     text-align: center;
 }
 .cq_hero_content{
-    
+
 }
 .cq_hero_title{
     font-weight: 800;
@@ -46,5 +46,99 @@
     }
     .cq_hero_info{
         font-size: 16px;
+    }
+}
+
+/*===*/
+
+
+.cq_quest_img_paint_down {
+    top: 563px !important;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 25%;
+}
+
+.cq_hero {
+    text-align: left;
+}
+
+.cq_hero_content {
+    top: 37% !important;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    left: 2%;
+    right: 2%;
+}
+
+.swiper-button-prev-header {
+    top: 69% !important;
+    left: auto !important;
+    /*right: 20% !important;*/
+    right: 380px !important;
+}
+.swiper-button-next-header {
+    top: 69% !important;
+    left: auto !important;
+    /*right: 16% !important;*/
+    right: 310px !important;
+}
+
+@media screen and (max-width: 1500px) {
+    .swiper-button-prev-header {
+        right: 220px !important;
+    }
+    .swiper-button-next-header {
+        right: 150px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .swiper-button-prev-header {
+        left:10px !important;
+        right:auto !important;
+        top:50%!important;
+    }
+    .swiper-button-next-header {
+        right: 10px !important;
+        left: auto!important;
+        top:50%!important;
+    }
+    .cq_quest_img_paint_down {
+        top: 75% !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .swiper-button-prev-header {
+        display: none!important;
+    }
+    .swiper-button-next-header {
+        display: none!important;
+    }
+    .no_mob_text {
+        display: none!important;
+    }
+    .cq_hero_title {
+        margin-bottom: 0px;
+    }
+    .cq_quest_img_header {
+        height: 466px;
+    }
+    .cq_quest_img_paint_down {
+        top: 89% !important;
+        height: 10%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .swiper-button-prev-quests {
+        left:10px !important;
+        right:auto !important;
+        top:50%!important;
+    }
+    .swiper-button-next-quests {
+        right: 10px !important;
+        left: auto!important;
+        top:50%!important;
     }
 }
