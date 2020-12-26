@@ -109,6 +109,7 @@
         top: 75% !important;
     }
 }
+
 @media screen and (max-width: 576px) {
     .swiper-button-prev-header {
         display: none!important;
